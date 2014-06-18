@@ -1,0 +1,21 @@
+<h1>Listing operation_numbers</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @operation_numbers.each do |operation_number| %>
+  <tr>
+    <td><%= link_to 'Show', operation_number %></td>
+    <td><%= link_to 'Edit', edit_operation_number_path(operation_number) %></td>
+    <td><%= link_to 'Destroy', operation_number, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Operation number', new_operation_number_path %>

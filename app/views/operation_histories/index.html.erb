@@ -1,0 +1,21 @@
+<h1>Listing operation_histories</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @operation_histories.each do |operation_history| %>
+  <tr>
+    <td><%= link_to 'Show', operation_history %></td>
+    <td><%= link_to 'Edit', edit_operation_history_path(operation_history) %></td>
+    <td><%= link_to 'Destroy', operation_history, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Operation history', new_operation_history_path %>

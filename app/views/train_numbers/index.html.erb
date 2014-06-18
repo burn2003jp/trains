@@ -1,0 +1,21 @@
+<h1>Listing train_numbers</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @train_numbers.each do |train_number| %>
+  <tr>
+    <td><%= link_to 'Show', train_number %></td>
+    <td><%= link_to 'Edit', edit_train_number_path(train_number) %></td>
+    <td><%= link_to 'Destroy', train_number, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Train number', new_train_number_path %>
