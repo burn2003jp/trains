@@ -80,7 +80,6 @@ GEM
     erubi (1.12.0)
     execjs (2.9.1)
     ffi (1.16.2)
-    ffi (1.16.2-x86-mingw32)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.4)
@@ -101,7 +100,6 @@ GEM
     marcel (1.0.4)
     method_source (1.1.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.8)
     minitest (5.20.0)
     net-imap (0.3.7)
       date
@@ -113,13 +111,9 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.16.8)
-      mini_portile2 (~> 2.8.2)
-      racc (~> 1.4)
-    nokogiri (1.16.8-x86-mingw32)
+    nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
     pg (0.17.1)
-    pg (0.17.1-x86-mingw32)
     racc (1.8.1)
     rack (2.2.9)
     rack-test (2.1.0)
@@ -145,9 +139,9 @@ GEM
     rails-html-sanitizer (1.6.1)
       loofah (~> 2.21)
       nokogiri (>= 1.15.7, != 1.16.7, != 1.16.6, != 1.16.5, != 1.16.4, != 1.16.3, != 1.16.2, != 1.16.1, != 1.16.0.rc1, != 1.16.0)
-    railties (7.0.8)
-      actionpack (= 7.0.8)
-      activesupport (= 7.0.8)
+    railties (7.0.8.1)
+      actionpack (= 7.0.8.1)
+      activesupport (= 7.0.8.1)
       method_source
       rake (>= 12.2)
       thor (~> 1.0)
@@ -184,8 +178,7 @@ GEM
     zeitwerk (2.6.13)
 
 PLATFORMS
-  ruby
-  x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   coffee-rails (~> 5.0.0)
