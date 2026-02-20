@@ -100,7 +100,6 @@ GEM
     marcel (1.0.4)
     method_source (1.1.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.6)
     minitest (5.22.3)
     net-imap (0.4.20)
       date
@@ -112,11 +111,10 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.18.9-x86_64-linux-gnu)
+    nokogiri (1.19.1-x86_64-linux-gnu)
       racc (~> 1.4)
     pg (0.17.1)
-    pg (0.17.1-x86-mingw32)
-    racc (1.7.3)
+    racc (1.8.1)
     rack (2.2.20)
     rack-test (2.1.0)
       rack (>= 1.3)
